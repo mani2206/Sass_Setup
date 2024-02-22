@@ -1,0 +1,18 @@
+@import "./abstracts/variables";
+@import "./mixins/breakpoints";
+@import "./abstracts/common";
+@import "./includes/header";
+@import "./abstracts/buttons";
+@import "./includes/footer";
+
+// Start : Main section
+
+.body{
+    background-color: violet;
+    // background: url("../../images/166238.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+// End : Main Section
+

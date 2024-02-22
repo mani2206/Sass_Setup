@@ -1,0 +1,93 @@
+// # Media Query
+$screen-sm: 576px;
+$screen-md: 768px;
+$screen-lg: 992px;
+$screen-xl: 1200px;
+
+//  Mixins
+// =============================================================
+
+@mixin media-min-sm {
+    @media (min-width: #{$screen-sm}) {
+        @content;
+    }
+}
+@mixin media-min-md {
+    @media (min-width: #{$screen-md}) {
+        @content;
+    }
+}
+
+@mixin media-min-lg {
+    @media (min-width: #{$screen-lg}) {
+        @content;
+    }
+}
+
+@mixin media-min-xl {
+    @media (min-width: #{$screen-xl}) {
+        @content;
+    }
+}
+
+
+// {
+//     "liveServer.settings.donotShowInfoMsg": true,
+//     "liveSassCompile.settings.formats": [
+//         {
+//             "format": "compressed",
+//             "extensionName": ".min.css",
+//             "savePath": "/public/css"
+//         }
+//     ],
+//     "liveSassCompile.settings.autoprefix": [
+    
+    
+
+    
+//     ],
+//     "liveServer.settings.donotVerifyTags": true,
+//     "es6-css-minify.jsMinPath": "/public/js",
+//     "[html]": {
+//         "editor.defaultFormatter": "vscode.html-language-features"
+//     },
+//     "git.ignoreMissingGitWarning": true,
+//     "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+//     "es6-css-minify.autoprefixer": {
+
+    
+//     },
+//     "gitlens.advanced.messages": {
+//         "suppressGitDisabledWarning": true
+//     },
+//     "editor.unicodeHighlight.ambiguousCharacters": false,
+//     "gitlens.hovers.currentLine.over": "line",
+//     "es6-css-minify.css": {
+    
+
+//         "rebase": false
+//     },
+//     "es6-css-minify.js": {
+//         "mangle": false,
+//         "compress": {
+//             "unused": false
+//         },
+//         "output": {
+//             "quote_style": 0
+//         },
+//         "warnings": true
+//     },
+//     "files.autoSave": "afterDelay",
+//     "[javascriptreact]": {
+//         "editor.defaultFormatter": "esbenp.prettier-vscode"
+//     },
+//     "[scss]": {
+//         "editor.defaultFormatter": "esbenp.prettier-vscode"
+//     },
+//     "[javascript]": {
+//         "editor.defaultFormatter": "esbenp.prettier-vscode"
+//     },
+//     "[css]": {
+//         "editor.defaultFormatter": "esbenp.prettier-vscode"
+//     }
+// }

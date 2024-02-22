@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "AGCA,AAAA,CAAC,AAAA,CACG,MAAM,CAAE,GAAG,CACX,OAAO,CAAE,GAAG,CACZ,UAAU,CAAE,UAAU,CACtB,WAAW,CAAC,oBAAoB,CACnC,AHGD,AAAA,KAAK,AAAA,CACD,gBAAgB,CAAE,MAAM,CAExB,MAAM,CAAE,KAAK,CACb,mBAAmB,CAAE,MAAM,CAC3B,eAAe,CAAE,KAAK,CACzB",
+    "sources": [
+        "../../assets/sass/style.scss",
+        "../../assets/sass/abstracts/_variables.scss",
+        "../../assets/sass/mixins/_breakpoints.scss",
+        "../../assets/sass/abstracts/_common.scss",
+        "../../assets/sass/includes/_header.scss",
+        "../../assets/sass/abstracts/_buttons.scss",
+        "../../assets/sass/includes/_footer.scss"
+    ],
+    "names": [],
+    "file": "style.min.css"
+}

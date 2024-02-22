@@ -1,0 +1,28 @@
+$overlay2 : red;
+$overlay1 : white;
+$red : #FF7F50;
+$green : #2ecc71;
+
+$font-family: 'Roboto', sans-serif;
+
+$font-regular: (
+    font-family: $font-family,
+    font-weight: 400,
+);
+
+$font-light: (
+    font-family: $font-family,
+    font-weight: 300,
+);
+
+$font-bold: (
+    font-family: $font-family,
+    font-weight: 700,
+);
+
+@mixin print-styles($map) {
+    @each $property, $value in $map {
+        #{$property}: $value;
+    }
+}
+
